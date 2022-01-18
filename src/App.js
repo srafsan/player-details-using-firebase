@@ -23,10 +23,8 @@ function App() {
           <Navbar />
           <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='/home' element={<Home />} />
             <Route path='/login' element={<Login />} />
             <Route path='/details/:playerDetails' element={<PrivateRoute><PlayerDetails /></PrivateRoute>} />
-            <Route path='/home/details/:playerDetails' element={<PrivateRoute><PlayerDetails /></PrivateRoute>} />
             <Route path='/allPlayers/details/:playerDetails' element={<PlayerDetails />} />
             <Route path='/allPlayers' element={<PrivateRoute><AllPlayers /></PrivateRoute>} />
             <Route path='*' element={<NotFound />} />
