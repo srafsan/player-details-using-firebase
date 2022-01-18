@@ -15,7 +15,7 @@ const Navbar = () => {
 
                     <div className="d-flex">
                         {
-                            (user) ? <button className="btn btn-outline-success" onClick={handleSignOut}>Sign Out</button> : <button className="btn btn-outline-success" onClick={handleSignIn}>Sign in</button>
+                            (user.email) ? <button className="btn btn-outline-success" onClick={handleSignOut}>Sign Out</button> : <button className="btn btn-outline-success" onClick={handleSignIn}>Sign in</button>
                         }
                     </div>
                 </div>

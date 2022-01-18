@@ -10,20 +10,23 @@ import AllPlayers from './components/PlayerAll/PlayerAll';
 import NotFound from './components/NotFound/NotFound';
 import Navbar from './components/Navbar/Navbar';
 import Details from './components/Details/Details';
+import AuthProvider from './context/AuthProvider';
 
 
 function App() {
   return (
     <div>
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/allplayers' element={<AllPlayers />} />
-          <Route path='/details' element={<Details />} />
-          <Route path='*' element={<NotFound />} />
-        </Routes>
-      </Router>
+      <AuthProvider>
+        <Router>
+          <Navbar />
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/allplayers' element={<AllPlayers />} />
+            <Route path='/details' element={<Details />} />
+            <Route path='*' element={<NotFound />} />
+          </Routes>
+        </Router>
+      </AuthProvider>
     </div>
   );
 }
