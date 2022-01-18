@@ -11,7 +11,7 @@ const Navbar = () => {
                 <div className="container-fluid">
                     <h1 className="navbar-brand">Firebase</h1>
                     <Link to='/'>Home</Link>
-                    <Link to='/allplayers'>Players</Link>
+                    <Link to='/allPlayers'>Players</Link>
 
                     <div className="d-flex">
                         {
