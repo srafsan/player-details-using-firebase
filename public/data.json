@@ -4,7 +4,7 @@
         "name": "Leonal Messi",
         "profession": "Football",
         "image": "https://i.ibb.co/RpW003y/A-baseball-pitcher-throws-during-a-baseball-game.jpg",
-        "rating": 9,
+        "rating": 4,
         "description": "One of the legendary players of all time."
     },
     {
@@ -12,7 +12,7 @@
         "name": "Naymer Jr.",
         "image": "https://i.ibb.co/HHtbB4S/High-school-baseball-player-swings-at-a-pitch-in-a-state-tournament-game.jpg",
         "profession": "Football",
-        "rating": 7,
+        "rating": 3,
         "description": "One of the legendary players of all time."
     },
     {
@@ -20,7 +20,7 @@
         "name": "Sakib Al Hasan",
         "profession": "Cricket",
         "image": "https://i.ibb.co/VxP6Ddp/player-8.jpg",
-        "rating": 10,
+        "rating": 4,
         "description": "One of the legendary players of all time."
     },
     {
@@ -28,7 +28,7 @@
         "name": "Babe Ruth",
         "image": "https://i.ibb.co/1bJZML8/Professional-tennis-player-performs-forehand-hit-on-clay-tennis-court-Young-male-athlete-with-tennis.jpg",
         "profession": "Baseball",
-        "rating": 10,
+        "rating": 5,
         "description": "One of the legendary players of all time."
     },
     {
@@ -36,7 +36,7 @@
         "name": "Hank Aaron",
         "image": "https://i.ibb.co/c6k0fd7/Basketball-players-chasing-for-ball-during-the-match-in-court.jpg",
         "profession": "Baseball",
-        "rating": 10,
+        "rating": 5,
         "description": "One of the legendary players of all time."
     },
     {
@@ -44,7 +44,7 @@
         "name": "Don Bradman",
         "image": "https://i.ibb.co/LnN006M/Shot-of-a-soccer-player-holding-a-ball-while-out-on-the-field.jpg",
         "profession": "Cricket",
-        "rating": 10,
+        "rating": 4.5,
         "description": "One of the legendary players of all time."
     },
     {
@@ -52,7 +52,7 @@
         "name": "Booby Orr",
         "image": "https://i.ibb.co/hMFV2dT/Action-portrait-of-fit-Caucasian-male-footballer-in-early-40s-practicing-juggling-to-maintain-ball-c.jpg",
         "profession": "Ice Hockey",
-        "rating": 8,
+        "rating": 3,
         "description": "One of the legendary players of all time."
     },
     {
